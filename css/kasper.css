@@ -850,6 +850,12 @@ border-bottom: 1px solid var(--main-color);
     border-left: none;
 }
 @media (max-width:767px){
+    .subscribe form{
+        padding: 10px;
+    }
+    .subscribe form i{
+        left: 20px;
+    }
     .subscribe form input[type="submit"]{
         padding: 20px;
     }
